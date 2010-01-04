@@ -1,0 +1,47 @@
+---
+## General Options
+# 
+# Length to which you want long urls to be truncated.
+maxurlsize: 35
+
+# Name of the channel the logs are from. 
+channame: nochannel
+
+# Name of the script, for self refererential urls.
+scriptname: perpparse.cgi
+
+# Time to refresh in seconds, leave commented for 300 seconds (5m). 
+refreshtime: 60
+
+# If you need to place image files in another location, enter the 
+# address for where sort is here 
+# imgdir: ../images/
+
+## Paths
+#
+# Path to the log files.  
+logroot: /var/log/irclogs/
+
+# _Web Path_ to the javascript files. 
+jsroot: src/
+
+## Optional Crap
+#
+# Set up a custom css file: If you don't like the default look, you can set a cssfile here. 
+# cssfile: path/to/css.css
+
+# If you're using auth, we can use http headers to highlight based on username.
+# We use a yaml file to map authed nicks to irc nicks.
+# nickmethod:
+#   auth - grabs nicks of authed users.
+#   drop - drop down of users. (not functional yet)
+nickmethod: auth 
+
+# yaml file where a list of nicks can be found. 
+nickfile: /path/to/nicks.yaml
+
+# For Fortune file support. Please set ffoption to true, and ffroot to your 
+# fortune file root. please touch these files manually, as this script will
+# not create new files on the filesystem by design.  
+#ffoption: true
+#ffroot: /var/www/quotes/

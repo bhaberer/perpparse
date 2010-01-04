@@ -1,0 +1,17 @@
+#########################################
+# List of users for nick highlighting.  #
+#########################################
+# Format of this file:
+# 
+# mainusername: 
+#   - alias1
+#   - alias2
+#  (...)
+#   - alias40
+# 
+# Specify as many, or as few as are needed.
+---
+username:
+   - nick
+   - nick
+   - nick
