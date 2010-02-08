@@ -69,7 +69,7 @@ if (param('r')) {
 my $q = '';
 foreach (@rows) {
     #Parse the lines in the log file, but only parse the timestamped lines. 
-    if ($_ =~ /\[200/) {
+    if ($_ =~ /\[20/) {
 
 	# Prep for adding to quote file, $q tracks the plaintext version of 
 	# the quote, while $_ continues to hold the value that will get rendered 
